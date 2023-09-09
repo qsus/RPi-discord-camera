@@ -3,6 +3,7 @@
 # YOUR WEBHOOK URL HERE
 # example: url='https://discord.com/api/webhooks/ID/some-token'
 # TODO: move to separate config file
+# could be done like this - use the first one available: --webhook parameter; config.json file or .env file; hard-coded url
 url=''
 
 from time import sleep
